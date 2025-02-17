@@ -79,7 +79,7 @@ section {
     gap: 160px;
 }
 .myPlans-section .myPlans-watch-img {
-    background-image: url('/image/gradient1.png'), url('/image/watch.png');
+    background-image: url('image/gradient1.png'), url('image/watch.png');
     background-repeat: no-repeat;
     position: relative;
     background-position: center;
