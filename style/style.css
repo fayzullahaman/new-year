@@ -37,3 +37,65 @@ section {
 .header .content button {
     margin-top: 20px;
 }
+
+.failor-section {
+    display: flex;
+    align-items: center;
+}
+.failor-section img{
+    margin-left: 100px;
+}
+.failor-section h1 {
+    font-size: 40px;
+    width: 350px;
+}
+.failor-section p {
+    width: 405px;
+}
+.failor-section .content {
+    margin-left: 70px;
+}
+.failor-section ul {
+    list-style: none;
+    --icon-space: 2.6em;
+}
+.failor-section ul li::before {
+    content: "\f00c";
+    font-family: FontAwesome;
+    display: inline-block;
+    margin-left: calc( var(--icon-space) * -1);
+    margin-right: 10px;
+    color: #16D887;
+}
+
+.myPlans-section h1 {
+    text-align: center;
+    font-size: 35px;
+}
+.myPlans-content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 160px;
+}
+.myPlans-section .myPlans-watch-img {
+    background-image: url('/image/gradient1.png'), url('/image/watch.png');
+    background-repeat: no-repeat;
+    position: relative;
+    background-position: center;
+}
+.myPlans-watch-img h2 {
+    color: white;
+    font-size: 40px;
+    width: 450px;
+    padding: 60px;
+    padding: 48px 0px 0px 350px;
+}
+.myPlans-watch-img button {
+    margin-top: 20px;
+    width: 160px;
+    font-size: 20px;
+    border-radius: 8px;
+    height: 65px;
+    margin: 0px 350px 60px;
+}
