@@ -4,7 +4,15 @@ body {
     font-family: 'Work Sans';
 }
 section {
-    margin: 190px;
+    margin: 120px 100px;
+}
+
+ button {
+    width: 160px;
+    font-size: 20px;
+    border-radius: 8px;
+    height: 65px;
+    border: none;
 }
 
 .header img {
@@ -28,24 +36,4 @@ section {
 }
 .header .content button {
     margin-top: 20px;
-    width: 160px;
-    font-size: 20px;
-    border-radius: 8px;
-    height: 65px;
-}
-.failor-section {
-    display: flex;
-    align-items: center;
-}
-.failor-section img{
-    margin-left: 100px;
-}
-.failor-section h1 {
-    font-size: 40px;
-}
-.failor-section .content {
-    margin-left: 70px;
-}
-.failor-section ul li {
-    text-decoration: none;
 }
